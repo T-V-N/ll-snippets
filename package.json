@@ -1,0 +1,23 @@
+{
+  "name": "ll-snippets",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:T-V-N/ll-snippets.git",
+  "author": "paukshto <dr.tvn@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node --watch index.ts",
+    "build": "tsc",
+    "test": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "@types/node-fetch": "^2.6.0"
+  }
+}
